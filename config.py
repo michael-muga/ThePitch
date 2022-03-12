@@ -5,6 +5,8 @@ class Config:
     '''
 
     SECRET_KEY = '5d3135c3c429dc8d505a0b68'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://michael:mike2020@localhost/thepitch'
+
     pass
 
 
