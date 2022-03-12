@@ -1,6 +1,7 @@
 from flask import render_template,request,redirect,url_for
 from . import main
 from . forms import LoginForm, RegisterForm, PitchForm, CommentForm
+from ..models import User, Pitch, Comment
 
 
 @main.route('/')
