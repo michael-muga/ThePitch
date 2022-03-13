@@ -1,10 +1,12 @@
 from flask import Blueprint, render_template, request, flash, redirect, url_for
+
+from app import email
 from . import auth
 from .main.forms import LoginForm, RegisterForm, PitchForm, CommentForm
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
-
+from .email import mail_message
 from .models import User, Pitch, Comment
 from flask_wtf import FlaskForm
 
