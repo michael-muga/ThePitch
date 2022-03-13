@@ -1,0 +1,4 @@
+Hello {{user.username}}
+Welcome to The Pitch
+We have just seen you have signed up for our application and want to welcome you to the family.
+Please feel free to explore your creativity to come up with the best pitches and also get to view other users pitches
